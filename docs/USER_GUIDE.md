@@ -1251,6 +1251,4 @@ SVDF preserves it.
 
 ---
 
-# One-line interpretation
-
 > **SVDF does not ask “Which project has the highest score?” It asks “Which projects remain strategically defensible when shared value, implementation difficulty, model sensitivity, evidence quality, and organisational capacity to act are made visible?”**
