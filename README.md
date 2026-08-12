@@ -117,4 +117,4 @@ The software generalises the research design introduced in **Not Every Green Inv
 ## Citation
 Akhtar, Mohammad Amir Khusru. (2026). *SVDF Decision Studio: Shared Value Decision Frontier decision-support software* (Version 2.0). Apache License 2.0.
 
-Repository: https://github.com/Arithmetic-Power-Geometry/SVDF
+Repository: https://github.com/Arithmetic-Power-Geometry/SVDF-Decision-Studio
