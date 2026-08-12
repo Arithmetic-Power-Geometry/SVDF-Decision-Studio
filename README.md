@@ -6,9 +6,12 @@ Copyright © 2026 Mohammad Amir Khusru Akhtar
 Usha Martin University, Ranchi, Jharkhand, India  
 License: Apache License 2.0
 
-<a href="https://www.apache.org/licenses/LICENSE-2.0"
+<strong>Research code and paper reproduction:</strong>
+<a href="https://github.com/Arithmetic-Power-Geometry/SVDF"
    target="_blank"
-   rel="noopener noreferrer">Apache License 2.0</a>
+   rel="noopener noreferrer">
+   SVDF GitHub Repository
+</a>
 
 ## Problem first
 Organisations often have several projects that all look worthwhile, but money, time, staff and managerial attention are limited. A normal weighted ranking can hide important trade-offs because one very strong dimension can compensate for a weak one.
