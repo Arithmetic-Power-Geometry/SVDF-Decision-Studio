@@ -133,28 +133,23 @@ h3{
 
 .progress-nav{
   max-width:1240px;
-  margin:auto;
+  margin:0 auto;
   display:flex;
   justify-content:center;
   align-items:center;
-  gap:7px;
-  padding:7px;
-  background:#fff;
-  border:1px solid var(--line);
-  border-radius:15px;
-  box-shadow:0 5px 18px rgba(15,35,60,.06);
+  gap:8px;
+  padding:7px 14px;
   overflow-x:auto;
 }
 
 .step{
   flex:0 0 auto;
-  padding:10px 13px;
+  padding:10px 14px;
   border-radius:10px;
   font-size:13px;
   font-weight:700;
   color:#697a8f;
   white-space:nowrap;
-  transition:.18s ease;
 }
 
 .step.done{
