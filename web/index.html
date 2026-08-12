@@ -1,1 +1,100 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SVDF Decision Studio</title><link rel="stylesheet" href="assets/style.css"></head><body><header><div class="eyebrow">OPEN DECISION SUPPORT · APACHE-2.0</div><h1>SVDF Decision Studio</h1><p>Guided strategic screening for sustainability and shared-value portfolios.</p><div class="author">Mohammad Amir Khusru Akhtar · Usha Martin University, Ranchi</div></header><nav id="steps"></nav><main><section class="intro"><h2>Start with the problem, not the score</h2><p>Many organisations have several worthwhile projects but limited money, time, people and managerial attention. SVDF asks which alternatives cannot be clearly beaten on both shared value and implementation complexity.</p><div class="note"><b>Decision support, not automatic approval.</b> Budget, engineering, law, safety, ethics and local priorities remain separate decisions.</div></section><div id="app"></div><div class="controls"><button id="back">← Back</button><button id="next">Next →</button></div></main><footer>Copyright © 2026 Mohammad Amir Khusru Akhtar · Apache License 2.0 · <a href="https://github.com/Arithmetic-Power-Geometry/SVDF-Decision-Studio">GitHub</a></footer><script src="assets/app.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SVDF Decision Studio — guided strategic screening for sustainability and shared-value portfolios.">
+  <meta name="theme-color" content="#123b63">
+  <title>SVDF Decision Studio</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-copy">
+        <div class="eyebrow">OPEN DECISION SUPPORT · APACHE-2.0</div>
+        <h1>SVDF Decision Studio</h1>
+        <p class="tagline">Guided strategic screening for sustainability and shared-value portfolios.</p>
+        <div class="author">Mohammad Amir Khusru Akhtar · Usha Martin University, Ranchi</div>
+      </div>
+
+      <div class="header-actions">
+        <a
+          class="header-link primary-link"
+          href="https://github.com/Arithmetic-Power-Geometry/SVDF-Decision-Studio/blob/main/docs/USER_GUIDE.md"
+          target="_blank"
+          rel="noopener noreferrer">
+          Read User Guide
+        </a>
+        <a
+          class="header-link"
+          href="https://github.com/Arithmetic-Power-Geometry/SVDF-Decision-Studio"
+          target="_blank"
+          rel="noopener noreferrer">
+          GitHub
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="progress-shell" aria-label="SVDF workflow navigation">
+    <nav id="steps" class="progress-nav"></nav>
+  </div>
+
+  <main class="page-shell">
+    <section class="intro">
+      <div class="intro-badge">Start here</div>
+      <h2>Start with the problem, not the score</h2>
+      <p>
+        Many organisations have several worthwhile projects but limited money, time,
+        people and managerial attention. SVDF asks which alternatives cannot be clearly
+        beaten on both shared value and implementation complexity.
+      </p>
+
+      <div class="note">
+        <strong>Decision support, not automatic approval.</strong>
+        Budget, engineering, law, safety, ethics and local priorities remain separate decisions.
+      </div>
+
+      <div class="guide-card">
+        <div>
+          <strong>New to SVDF?</strong>
+          <p>
+            The complete guide explains every field with examples, what value to enter,
+            why it is used, and how to interpret the final report.
+          </p>
+        </div>
+        <a
+          class="guide-button"
+          href="https://github.com/Arithmetic-Power-Geometry/SVDF-Decision-Studio/blob/main/docs/USER_GUIDE.md"
+          target="_blank"
+          rel="noopener noreferrer">
+          Open Complete User Guide →
+        </a>
+      </div>
+    </section>
+
+    <div id="app" aria-live="polite"></div>
+
+    <div class="controls">
+      <button id="back" class="secondary" type="button">← Back</button>
+      <div class="control-hint">Your entries stay in this browser while you move through the 10 steps.</div>
+      <button id="next" type="button">Next →</button>
+    </div>
+  </main>
+
+  <footer>
+    <div>
+      Copyright © 2026 Mohammad Amir Khusru Akhtar · Apache License 2.0
+    </div>
+    <div class="footer-links">
+      <a href="https://github.com/Arithmetic-Power-Geometry/SVDF-Decision-Studio" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <span>·</span>
+      <a href="https://github.com/Arithmetic-Power-Geometry/SVDF-Decision-Studio/blob/main/docs/USER_GUIDE.md" target="_blank" rel="noopener noreferrer">User Guide</a>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
