@@ -1,0 +1,5 @@
+project_id,project_name,economic_value,environmental_value,stakeholder_reach,implementation_burden,scale,volatility,capex,evidence_source,evidence_confidence,ea_difference,ea_availability,ea_orientation,ea_integration,ea_temporality,ea_answerability
+CITY-LIGHT,LED street lighting,25,20,120000,4,9,3,35000000,utility tender,high,yes,yes,yes,yes,yes,yes
+CITY-BUS,Electric buses,14,29,80000,9,10,7,180000000,mobility plan,medium,yes,yes,yes,partial,partial,partial
+CITY-WATER,Leak detection,18,25,150000,6,8,6,50000000,water board study,medium,yes,partial,yes,partial,yes,partial
+CITY-PARK,Urban cooling parks,8,22,90000,5,7,8,25000000,planning estimate,low,yes,partial,yes,partial,partial,partial

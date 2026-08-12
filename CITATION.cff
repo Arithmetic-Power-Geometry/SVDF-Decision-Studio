@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use SVDF Decision Studio, please cite the software."
+title: "SVDF Decision Studio"
+version: "2.0.0"
+type: software
+authors:
+  - family-names: "Akhtar"
+    given-names: "Mohammad Amir Khusru"
+    affiliation: "Usha Martin University, Ranchi, Jharkhand, India"
+    email: "akakhtar.2024@gmail.com"
+license: Apache-2.0
+repository-code: "https://github.com/Arithmetic-Power-Geometry/SVDF"
+date-released: 2026-08-12
