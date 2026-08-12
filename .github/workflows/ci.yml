@@ -1,0 +1,40 @@
+name: Run SVDF Decision Studio
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main, master ]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test-and-reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Run tests
+        env:
+          PYTHONPATH: ${{ github.workspace }}/python
+        run: python -m pytest -q
+      - name: Reproduce bundled scenarios
+        env:
+          PYTHONPATH: ${{ github.workspace }}/python
+        run: |
+          mkdir -p outputs
+          python python/cli.py samples/paper_reproduction.csv --out outputs/paper_reproduction.json
+          python python/cli.py samples/university_energy.csv --out outputs/university_energy.json
+          python python/cli.py samples/corporate_decarbonisation.csv --out outputs/corporate_decarbonisation.json
+          python python/cli.py samples/hospital_sustainability.csv --out outputs/hospital_sustainability.json
+          python python/cli.py samples/manufacturing_efficiency.csv --out outputs/manufacturing_efficiency.json
+          python python/cli.py samples/municipal_projects.csv --out outputs/municipal_projects.json
+          python python/cli.py samples/digital_infrastructure.csv --out outputs/digital_infrastructure.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: svdf-decision-studio-results
+          path: outputs/
