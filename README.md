@@ -10,7 +10,7 @@ License: Apache License 2.0
 <a href="https://github.com/Arithmetic-Power-Geometry/SVDF"
    target="_blank"
    rel="noopener noreferrer">
-   SVDF GitHub Repository
+  SVDF GitHub Repository ↗
 </a>
 
 ## Problem first
